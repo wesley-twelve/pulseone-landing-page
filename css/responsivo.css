@@ -1,0 +1,353 @@
+@media(max-width:320px){
+    header{
+    height: 40vh;
+}
+
+.presentation-text{
+    margin-top: 02rem;
+    margin-left: -1rem;
+}
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+}
+
+
+header h1{
+    font-size: 1rem;
+}
+
+header h3{
+    font-size: 0.7rem;
+}
+
+span{
+    animation: none;
+}
+
+input{
+    font-size: 0.5rem;
+}
+
+.smartwatch{
+    width: 7rem;
+    padding-top: 1.3rem;
+    margin-right: 0.3rem;
+}
+
+.angles-down{
+    font-size: 0;
+}   
+
+h4{
+    font-size: 0;
+}
+
+/* content */
+    
+h2{
+    animation: none;
+    font-size: 1.5rem;
+    margin: 3rem 0 5rem;
+}
+
+.features{
+    animation: none;
+    margin-bottom: 4rem;
+    font-size: 0.1rem;
+}
+
+.features h3{
+    font-size: 0.7rem;
+}
+
+ul{
+    grid-template-columns: repeat(auto-fit, minmax(60px, 2fr));
+    gap: 5rem;
+    padding: 0;
+}
+
+.fas{
+    font-size: 2rem;
+}
+
+/* customers section */
+
+.customer-opinion{
+    height: 54vh;  
+}
+
+
+.customer-opinion h2{
+    font-size: 1.3rem;
+}
+
+.customer1 img{
+    left: 4.2rem;
+    width: 3rem;
+}
+
+.text-from-customer1{
+    width: 8rem;
+    left: 1.5rem;
+    top: 8rem;
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+.customer2 img{
+    width: 3rem;
+    right: 2.8rem;
+}
+
+.text-from-customer2{
+    width: 8rem;
+    right: 0.5rem;
+    top: 8rem;
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+footer{
+    min-height: 25vh;
+}
+
+footer h2{
+    padding-top: 1.5rem;
+    margin-bottom: 2rem;
+    animation: none;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+}
+
+@media(min-width:325px) and (max-width:450px){
+header{
+    height: 40vh;
+}
+
+.presentation-text{
+    margin-top: 3rem;
+    margin-left: -1rem;
+}
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+}
+
+
+header h1{
+    font-size: 1.5rem;
+}
+
+header h3{
+    font-size: 0.9rem;
+}
+
+span{
+    animation: none;
+}
+
+input{
+    font-size: 0.6rem;
+}
+
+.smartwatch{
+    width: 7rem;
+    padding-top: 3rem;
+    margin-right: 0.3rem;
+}
+
+.angles-down{
+    font-size: 0;
+}   
+
+h4{
+    font-size: 0;
+}
+
+/* content */
+    
+h2{
+    animation: none;
+    font-size: 2rem;
+    margin: 3rem 0 5rem;
+}
+
+.features{
+    animation: none;
+    margin-bottom: 4rem;
+    font-size: 0.5rem;
+}
+
+.features h3{
+    font-size: 0.48rem;
+}
+
+ul{
+    grid-template-columns: repeat(auto-fit, minmax(50px, 2fr));
+    gap: 5rem;
+    padding: 0;
+}
+
+.fas{
+    font-size: 2rem;
+}
+
+/* customers section */
+
+.customer-opinion{
+    height: 5vh;  
+}
+
+
+.customer-opinion h2{
+    font-size: 1.3rem;
+}
+
+.customer1 img{
+    left: 4.8rem;
+    width: 3rem;
+}
+
+.text-from-customer1{
+    width: 10rem;
+    left: 1.5rem;
+    top: 8rem;
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+.customer2 img{
+    width: 3rem;
+    right: 4.2rem;
+}
+
+.text-from-customer2{
+    width: 10rem;
+    right: 0.5rem;
+    top: 8rem;
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+footer{
+    min-height: 25vh;
+}
+
+footer h2{
+    padding-top: 1.5rem;
+    margin-bottom: 2rem;
+    animation: none;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+}
+
+@media(min-width: 768px) and (max-width: 1024px){
+header{
+    height: 40vh;
+}
+
+.presentation-text{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+header h1{
+    font-size: 3rem;
+}
+
+header h3{
+    font-size: 1rem;
+}
+
+@keyframes pulse{
+    0%{
+        font-size: 20px;
+    }
+    50%{
+        font-size: 22px;
+    }
+    100%{
+        font-size: 20px;
+    }
+}
+
+input{
+    font-size: 0.8rem;
+}
+
+.smartwatch{
+    width: 15rem;
+    padding-top: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+/* content */
+
+h2{
+    font-size: 2.5rem;
+    margin: 6rem 0 5rem;
+}
+
+.features{
+    animation: none;
+    margin-bottom: 8rem;
+    font-size: 1rem;
+}
+
+ul{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    gap: 5rem;
+    padding: 0;
+}
+
+/* customers section */
+
+.customer-opinion h2{
+    font-size: 2.4rem;
+}
+
+.customer1 img{
+    left: 11.5rem;
+    width: 6rem;
+}
+
+.text-from-customer1{
+    width: 18rem;
+    left: 5rem;
+    top: 12rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.customer2 img{
+    width: 6rem;
+    right: 9.5rem;
+}
+
+.text-from-customer2{
+    width: 18rem;
+    right: 4rem;
+    top: 12rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+footer{
+    min-height: 25vh;
+}
+}

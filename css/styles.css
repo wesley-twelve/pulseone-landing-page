@@ -1,0 +1,311 @@
+body, html {
+  min-height: 100vh;
+  margin: 0;
+  background-color: #333;
+  scroll-behavior: smooth;
+}
+
+header{
+    background-color: #0A2540;
+    color: #FFF;
+    height: 85vh;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+.presentation-text{
+    margin-top: 7rem;
+    margin-left: 7rem;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-25px);
+    }
+}
+
+
+header h1{
+    animation: bounce 7s infinite;
+    margin: 0;
+    font-size: 5rem;
+}
+
+header h3{
+    margin: 0;
+    font-size: 2rem;
+}
+
+@keyframes pulse{
+    0%{
+        font-size: 32px;
+    }
+    50%{
+        font-size: 34px;
+    }
+    100%{
+        font-size: 32px;
+    }
+}
+
+span{
+    animation: pulse 7s infinite;
+    color: #FF4C61;
+}
+
+input{
+    padding: 0.50rem;
+    border-radius: 0.40rem;
+    border: none;
+    margin-top: 15px;
+    background-color: #B0C4DE;
+    font-size: 1rem;
+}
+
+.smartwatch{
+    width: 20rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 3rem;
+    margin-right: 5rem;
+}
+
+.angles-down{
+    color: 	#38BDF8;
+    animation: bounce 4s infinite;
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: 6rem;
+    right: 45%;
+}
+
+a{
+    color: #38BDF8;
+}
+
+h4{
+    color: 	#38BDF8;
+    animation: bounce 4s infinite;
+    position: absolute;
+    bottom: 7rem;
+    right: 44.5%;
+    font-size: 1.4rem;
+}
+
+
+/* content */
+
+main {
+  min-height: 100vh;
+  color: #f7d3d3;
+}
+
+@keyframes visibility{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+h2{
+    animation: visibility linear;
+    animation-timeline: view();
+    text-align: center;
+    font-size: 3rem;
+    margin: 6rem 0 10rem ;
+}
+
+@keyframes slide-sideways{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 20;
+        transform: translateX(0px);
+    }
+}
+
+.features{
+    animation: slide-sideways linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+    margin-bottom: 14rem;
+    font-size: 1.1rem;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+    gap: 2rem;
+    list-style: none;
+    margin: 0 4rem;
+}
+
+li{
+    text-align: center;
+}
+
+h3{
+    margin-bottom: 0;
+}
+
+p{
+    margin-top: 0.5rem;
+}
+
+
+.fas{
+    font-size: 2.5rem;
+}
+
+.fa-tint{
+    color:#00BFFF;
+}
+
+#water{
+    background-color: #00BFFF;
+    padding: 0.15rem;
+    border-radius: 0.2rem;
+    color: #0A2540;
+    animation: none;
+}
+
+.fa-battery-full{
+    color:#32CD32;
+}
+
+#baterry{
+    background-color: #32CD32;
+    padding: 0.15rem;
+    border-radius: 0.2rem;
+    color: #0A2540;
+    animation: none;
+}
+
+.fa-heartbeat{
+    color:#FF4C61;
+}
+
+#heart{
+    background-color: #FF4C61;
+    padding: 0.15rem;
+    border-radius: 0.2rem;
+    color: #0A2540;
+    animation: none;
+}
+
+.fa-bell{
+    color:#FFD700;
+}
+
+#notifications{
+    background-color: #FFD700;
+    padding: 0.15rem;
+    border-radius: 0.2rem;
+    color: #0A2540;
+    animation: none;
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 20;
+        scale: 1;
+    }
+}
+
+/* customers section */
+
+.customer-opinion{
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+    height: 58vh;
+    
+}
+
+.customer-opinion h2{
+    margin-bottom: 3rem;
+}
+
+.customer1 img{
+    position: absolute;
+    left: 14rem;
+    width: 7rem;
+    border-radius: 100%;
+}
+
+.text-from-customer1{
+    position: absolute;
+    width: 20rem;
+    left: 22rem;
+    font-size: 1.3rem;
+}
+
+.customer2 img{
+    width: 7rem;
+    border-radius: 100%;
+    position: absolute;
+    right: 30rem;
+}
+
+.text-from-customer2{
+    position: absolute;
+    width: 18rem;
+    right: 11rem;
+    font-size: 1.3rem;
+}
+
+strong{
+    background-color: 	#FF4F00;
+    color: #0A2540;
+    padding: 0.1rem;
+    border-radius: 0.3rem;
+}
+
+footer{
+    min-height: 45vh;
+    background-color: #0A2540;
+    color: #FFF;
+}
+
+footer h2{
+    padding-top: 5rem;
+    margin-bottom: 2rem;
+    animation: none;
+}
+
+@keyframes future{
+0%{
+    opacity: 0;
+}
+50%{
+    opacity: 1;
+}
+100%{
+    opacity: 0;
+}
+}
+
+
+.future{
+    animation: future 5s infinite;
+    color: #A020F0;
+}
+
+.buy-button{
+    display: block;
+    margin: 0 auto;
+}
+
+
