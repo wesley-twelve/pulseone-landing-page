@@ -30,5 +30,5 @@ The goal was to simulate a real-world product landing page using only HTML and C
 
 ✉️ Contact<br>
 If you’re hiring or have feedback, feel free to reach out:<br>
-📧 santoryuzx@gmail.com<br>
+📧 wesleydsantosms@gmail.com<br>
 🔗 https://www.linkedin.com/in/wesley-dsantos/
