@@ -9,7 +9,7 @@ header{
     background-color: #0A2540;
     color: #FFF;
     height: 85vh;
-    padding-top: 1rem;
+    padding-top: 0.2rem;
     padding-left: 2rem;
 }
 
@@ -27,6 +27,12 @@ header{
     }
 }
 
+.logotype{
+    width: 08rem;
+    position: absolute;
+    top: 0.3rem;
+    left: 8.2rem;
+}
 
 header h1{
     animation: bounce 7s infinite;

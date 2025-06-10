@@ -8,6 +8,9 @@
     margin-left: -1rem;
 }
 
+.logotype{
+    width: 0rem;
+}
 
 @keyframes bounce {
     0%, 100% {
@@ -137,6 +140,9 @@ header{
     margin-left: -1rem;
 }
 
+.logotype{
+    width: 0rem;
+}
 
 @keyframes bounce {
     0%, 100% {
@@ -264,6 +270,10 @@ header{
 .presentation-text{
     margin-top: 3rem;
     margin-left: 3rem;
+}
+
+.logotype{
+    width: 0rem;
 }
 
 header h1{
