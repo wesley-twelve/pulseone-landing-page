@@ -85,7 +85,7 @@ input{
     animation: bounce 4s infinite;
     font-size: 2.5rem;
     position: absolute;
-    bottom: 6rem;
+    bottom: 7rem;
     right: 45%;
 }
 
@@ -97,7 +97,7 @@ h4{
     color: 	#38BDF8;
     animation: bounce 4s infinite;
     position: absolute;
-    bottom: 7rem;
+    bottom: 8rem;
     right: 44.5%;
     font-size: 1.4rem;
 }
