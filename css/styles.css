@@ -39,13 +39,13 @@ header h3{
 
 @keyframes shadow-color{
     0%{
-        text-shadow: 0px 0px 0px;
+        text-shadow: 0px 0px 0px ;
     }
     50%{
-        text-shadow: 0px 0px 25px;
+        text-shadow: 0px 0px 25px ;
     }
     100%{
-        text-shadow: 0px 0px 0px;
+        text-shadow: 0px 0px 0px ;
     }
 }
 
