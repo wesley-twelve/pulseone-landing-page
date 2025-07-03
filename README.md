@@ -5,7 +5,15 @@ Welcome to the Smartwatch Landing Page, a sleek and modern promotional page for 
 This project focuses on responsive design, clean layout, and UI/UX best practices — ideal for showcasing HTML and CSS skills.
 
 ---
-  
+
+## 📸 Preview
+
+![Weather App Preview](https://github.com/wesley-twelve/pulseone-landing-page/blob/main/pulseone-photo-1.png)
+![Weather App Preview](https://github.com/wesley-twelve/pulseone-landing-page/blob/main/pulseone-photo-2.png)
+![Weather App Preview](https://github.com/wesley-twelve/pulseone-landing-page/blob/main/pulseone-photo-3.png)
+
+---
+
 ## 🔍 Features  
 
 ✅ Clean and semantic HTML5 structure  
