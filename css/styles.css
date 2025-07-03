@@ -11,6 +11,7 @@ header{
     height: 85vh;
     padding-top: 0.2rem;
     padding-left: 2rem;
+    padding-bottom: 1rem;
 }
 
 .presentation-text{
@@ -18,24 +19,15 @@ header{
     margin-left: 7rem;
 }
 
-@keyframes bounce {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-25px);
-    }
-}
-
 .logotype{
-    width: 08rem;
+    width: 8rem;
     position: absolute;
     top: 0.3rem;
-    left: 8.2rem;
+    left: 0;
+    margin-left: 8rem;
 }
 
 header h1{
-    animation: bounce 7s infinite;
     margin: 0;
     font-size: 5rem;
 }
@@ -45,24 +37,24 @@ header h3{
     font-size: 2rem;
 }
 
-@keyframes pulse{
+@keyframes shadow-color{
     0%{
-        font-size: 32px;
+        text-shadow: 0px 0px 0px ;
     }
     50%{
-        font-size: 34px;
+        text-shadow: 0px 0px 25px ;
     }
     100%{
-        font-size: 32px;
+        text-shadow: 0px 0px 0px ;
     }
 }
 
 span{
-    animation: pulse 7s infinite;
+    animation: shadow-color 5s infinite;
     color: #FF4C61;
 }
 
-input{
+button{
     padding: 0.50rem;
     border-radius: 0.40rem;
     border: none;
@@ -80,30 +72,7 @@ input{
     margin-right: 5rem;
 }
 
-.angles-down{
-    color: 	#38BDF8;
-    animation: bounce 4s infinite;
-    font-size: 2.5rem;
-    position: absolute;
-    bottom: 7rem;
-    right: 45%;
-}
-
-a{
-    color: #38BDF8;
-}
-
-h4{
-    color: 	#38BDF8;
-    animation: bounce 4s infinite;
-    position: absolute;
-    bottom: 8rem;
-    right: 44.5%;
-    font-size: 1.4rem;
-}
-
-
-/* content */
+/* CONTENT */
 
 main {
   min-height: 100vh;
@@ -166,56 +135,60 @@ p{
     margin-top: 0.5rem;
 }
 
-
 .fas{
     font-size: 2.5rem;
 }
 
 .fa-tint{
     color:#00BFFF;
+    animation: shadow-color 7s infinite;
 }
 
 #water{
-    background-color: #00BFFF;
+    text-shadow: 0px 0px 25px #00BFFF;
     padding: 0.15rem;
     border-radius: 0.2rem;
-    color: #0A2540;
+    color: #00BFFF; 
     animation: none;
 }
 
 .fa-battery-full{
     color:#32CD32;
+    animation: shadow-color 7s infinite;
 }
 
 #baterry{
-    background-color: #32CD32;
+    text-shadow: 0px 0px 25px #32CD32;
     padding: 0.15rem;
     border-radius: 0.2rem;
-    color: #0A2540;
+    color: #32CD32;
     animation: none;
 }
 
 .fa-heartbeat{
     color:#FF4C61;
+    animation: shadow-color 5s infinite;
 }
 
 #heart{
-    background-color: #FF4C61;
+    text-shadow: 0px 0px 25px #FF4C61;
     padding: 0.15rem;
     border-radius: 0.2rem;
-    color: #0A2540;
+    color: #FF4C61;
     animation: none;
+    
 }
 
 .fa-bell{
     color:#FFD700;
+    animation: shadow-color 5s infinite;
 }
 
 #notifications{
-    background-color: #FFD700;
+    text-shadow: 0px 0px 25px #FFD700;
     padding: 0.15rem;
     border-radius: 0.2rem;
-    color: #0A2540;
+    color: #FFD700;
     animation: none;
 }
 
@@ -230,14 +203,13 @@ p{
     }
 }
 
-/* customers section */
+/* CUSTOMER OPINION */
 
 .customer-opinion{
     animation: appear  linear;
     animation-timeline: view();
     animation-range: entry 0;
     height: 58vh;
-    
 }
 
 .customer-opinion h2{
@@ -291,21 +263,8 @@ footer h2{
     animation: none;
 }
 
-@keyframes future{
-0%{
-    opacity: 0;
-}
-50%{
-    opacity: 1;
-}
-100%{
-    opacity: 0;
-}
-}
-
-
 .future{
-    animation: future 5s infinite;
+    animation: shadow-color 5s infinite;
     color: #A020F0;
 }
 
@@ -314,4 +273,328 @@ footer h2{
     margin: 0 auto;
 }
 
+/*=====TABLET=====*/
+
+@media(min-width: 762px) and (max-width: 1024px){
+header{
+    height: 40vh;
+}
+
+.presentation-text{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.logotype{
+    width: 6rem;
+    margin-left: 4rem;
+}
+
+header h1{
+    padding-top: 1.2rem;
+    font-size: 3rem;
+}
+
+header h3{
+    font-size: 1rem;
+}
+
+button{
+    font-size: 0.8rem;
+}
+
+.smartwatch{
+    width: 15rem;
+    padding-top: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+/* content */
+
+h2{
+    font-size: 2.5rem;
+    margin: 6rem 0 5rem;
+}
+
+.features{
+    animation: none;
+    margin-bottom: 8rem;
+    font-size: 1rem;
+}
+
+ul{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    gap: 5rem;
+    padding: 0;
+}
+
+/* CUSTOMER SECTION */
+.customer-opinion{
+    height: 30vh;
+}
+
+.customer-opinion h2{
+    font-size: 2.4rem;
+}
+
+
+.customer1 img{
+    left: 8.6rem;
+    width: 6rem;
+}
+
+.text-from-customer1{
+    width: 18rem;
+    left: 5rem;
+    top: 12rem;
+    text-align: center;
+    font-size: 1.1rem;
+    width: 13rem;
+}
+
+.customer2 img{
+    width: 6rem;
+    right: 8.4rem;
+}
+
+.text-from-customer2{
+    width: 18rem;
+    right: 4rem;
+    top: 12rem;
+    text-align: center;
+    font-size: 1.1rem;
+    width: 14rem;
+}
+
+footer{
+    min-height: 25vh;
+}
+}
+
+/*=====MOBILE===== */
+
+@media(min-width:325px) and (max-width:760px){
+header{
+    height: 45vh;
+}
+
+.presentation-text{
+    margin-top: 3rem;
+    margin-left: -1rem;
+}
+
+.logotype{
+    width: 5rem;
+    margin-left: 0.5rem;
+}
+
+header h1{
+    padding-top: 1.2rem;
+    font-size: 1.5rem;
+}
+
+header h3{
+    font-size: 0.9rem;
+}
+
+button{
+    font-size: 0.6rem;
+}
+
+.smartwatch{
+    width: 7rem;
+    padding-top: 3rem;
+    margin-right: 0.3rem;
+}  
+
+/*CONTENT*/
+    
+h2{
+    animation: none;
+    font-size: 2rem;
+    margin: 3rem 0 5rem;
+}
+
+.features{
+    animation: none;
+    margin-bottom: 4rem;
+    font-size: 0.6rem;
+}
+
+.features h3{
+    font-size: 0.48rem;
+}
+
+ul{
+    grid-template-columns: repeat(auto-fit, minmax(60px, 2fr));
+    gap: 5rem;
+    padding: 0;
+}
+
+.fas{
+    font-size: 2rem;
+}
+
+/* CUSTOMER SECTION */
+.customer-opinion{
+    margin: 2rem;
+    height: 40vh;
+}
+
+.customer-opinion h2{
+    font-size: 1.3rem;
+}
+
+.customer1 img{
+    left: 3.4rem;
+    width: 3rem;
+}
+
+.text-from-customer1{
+    width: 10rem;
+    left: 1.5rem;
+    top: 8rem;
+    text-align: center;
+    font-size: 0.5rem;
+    width: 7rem;
+}
+
+.customer2 img{
+    width: 3rem;
+    right: 2.7rem;
+}
+
+.text-from-customer2{
+    width: 10rem;
+    right: 0.5rem;
+    top: 8rem;
+    text-align: center;
+    font-size: 0.5rem;
+    width: 7rem;
+}
+
+footer{
+    min-height: 25vh;
+}
+
+footer h2{
+    padding-top: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+}
+
+@media(max-width:320px){
+    header{
+    height: 40vh;
+}
+
+.presentation-text{
+    margin-top: 2rem;
+    margin-left: -1rem;
+}
+
+.logotype{
+    width: 1px;
+}
+
+header h1{
+    font-size: 1rem;
+}
+
+header h3{
+    font-size: 0.7rem;
+}
+
+button{
+    font-size: 0.5rem;
+}
+
+.smartwatch{
+    width: 7rem;
+    padding-top: 1.3rem;
+    margin-right: 0.3rem;
+}  
+
+/* CONTENT */
+    
+h2{
+    font-size: 1.5rem;
+    margin: 3rem 0 5rem;
+}
+
+.features{
+    margin-bottom: 4rem;
+    font-size: 0.1rem;
+}
+
+.features h3{
+    font-size: 1rem;
+}
+
+.features p{
+    font-size: 1rem;
+}
+
+ul{
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    gap: 5rem;
+    padding: 0;
+}
+
+.fas{
+    font-size: 2rem;
+}
+
+/* customers section */
+
+.customer-opinion{
+    height: 54vh;  
+}
+
+.customer-opinion h2{
+    font-size: 1.3rem;
+}
+
+.customer1 img{
+    left: 3rem;
+    width: 3rem;
+}
+
+.text-from-customer1{
+    width: 8rem;
+    left: 1.5rem;
+    top: 9rem;
+    text-align: center;
+    font-size: 0.5rem;
+    width: 6rem;
+}
+
+.customer2 img{
+    width: 3rem;
+    right: 2.2rem;
+}
+
+.text-from-customer2{
+    width: 8rem;
+    right: 0.5rem;
+    top: 9rem;
+    text-align: center;
+    font-size: 0.5rem;
+    width: 6rem;
+}
+
+footer{
+    min-height: 25vh;
+}
+
+footer h2{
+    padding-top: 1.5rem;
+    margin-bottom: 2rem;
+    animation: none;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+}
 
