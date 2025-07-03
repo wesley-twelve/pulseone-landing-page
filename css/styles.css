@@ -39,13 +39,13 @@ header h3{
 
 @keyframes shadow-color{
     0%{
-        text-shadow: 0px 0px 0px ;
+        text-shadow: 0px 0px 0px;
     }
     50%{
-        text-shadow: 0px 0px 25px ;
+        text-shadow: 0px 0px 25px;
     }
     100%{
-        text-shadow: 0px 0px 0px ;
+        text-shadow: 0px 0px 0px;
     }
 }
 
@@ -141,7 +141,7 @@ p{
 
 .fa-tint{
     color:#00BFFF;
-    animation: shadow-color 7s infinite;
+    animation: shadow-color 5s infinite;
 }
 
 #water{
@@ -154,7 +154,7 @@ p{
 
 .fa-battery-full{
     color:#32CD32;
-    animation: shadow-color 7s infinite;
+    animation: shadow-color 5s infinite;
 }
 
 #baterry{
@@ -167,7 +167,7 @@ p{
 
 .fa-heartbeat{
     color:#FF4C61;
-    animation: shadow-color 7s infinite;
+    animation: shadow-color 5s infinite;
 }
 
 #heart{
@@ -181,7 +181,7 @@ p{
 
 .fa-bell{
     color:#FFD700;
-    animation: shadow-color 7s infinite;
+    animation: shadow-color 5s infinite;
 }
 
 #notifications{
