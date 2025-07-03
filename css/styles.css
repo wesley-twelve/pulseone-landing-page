@@ -167,7 +167,7 @@ p{
 
 .fa-heartbeat{
     color:#FF4C61;
-    animation: shadow-color 5s infinite;
+    animation: shadow-color 7s infinite;
 }
 
 #heart{
@@ -181,7 +181,7 @@ p{
 
 .fa-bell{
     color:#FFD700;
-    animation: shadow-color 5s infinite;
+    animation: shadow-color 7s infinite;
 }
 
 #notifications{
